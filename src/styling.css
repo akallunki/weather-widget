@@ -1,0 +1,166 @@
+#widget {
+  border: 1px transparent;
+  border-radius: 4px;
+}
+.card-body {
+  padding: 25px 30px 13px;
+}
+.first-row {
+  padding: 0 0 20px 0;
+}
+
+.line {
+  border-left: thin solid black;
+  margin: 0 0 0 20px;
+}
+.search-functions {
+  text-align: center;
+}
+.search {
+  display: inline;
+  height: 30px;
+  border-radius: 4px;
+  max-width: 250px;
+  color: black;
+  font-size: 14px;
+}
+.search-box {
+  background: whitesmoke;
+  border: 1px solid whitesmoke;
+  max-width: 150px;
+}
+.search-button {
+  border: 1px solid whitesmoke;
+  background: whitesmoke;
+  opacity: 0.75;
+}
+.search:hover {
+  opacity: 1;
+}
+.current-location-button {
+  margin: 0;
+  background: whitesmoke;
+  opacity: 0.75;
+  border: 1px solid whitesmoke;
+}
+.city {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin: 25px 0 15px;
+}
+.icon {
+  text-align: right;
+  padding: 0;
+  float: right;
+}
+.last-update {
+  margin: 20px 0 0;
+  font-size: 10px;
+  text-align: center;
+  color: #212529;
+}
+.forecast {
+  padding: 8px 0;
+}
+#forecast .text {
+  text-align: center;
+  font-size: 12px;
+}
+.forecast .weekday,
+.max {
+  font-weight: 600;
+}
+.forecast-icon {
+  padding: 0;
+  width: 40px;
+  display: inline;
+}
+.change-theme {
+  padding: 0;
+  text-align: center;
+  font-size: 11px;
+}
+.theme-icon {
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.75;
+}
+.theme-icon:hover {
+  opacity: 1;
+}
+.default-theme {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+.blue-theme {
+  background: linear-gradient(
+    109.6deg,
+    rgb(156, 252, 248) 11.2%,
+    rgb(110, 123, 251) 91.1%
+  );
+}
+.rainbow-theme {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(222, 168, 248) 0%,
+    rgb(168, 222, 248) 21.8%,
+    rgb(189, 250, 205) 35.6%,
+    rgb(243, 250, 189) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(254, 211, 252) 99.7%
+  );
+}
+.magic-theme {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 75, 212, 0.4) 30.2%,
+    rgba(100, 231, 204, 0.73) 62%,
+    rgba(100, 231, 204, 0.73) 83.4%
+  );
+}
+.bottom-text {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+img {
+  cursor: pointer;
+}
+a {
+  color: cornflowerblue;
+  font-weight: 500;
+  text-decoration: none;
+}
+body {
+  margin: 100px auto;
+  max-width: 480px;
+  cursor: default;
+}
+p {
+  margin: 0 auto;
+  text-align: center;
+}
+h6,
+h7 {
+  font-size: 14px;
+}
+li {
+  list-style-type: none;
+  margin: 20px 0 0;
+  padding: 0;
+  font-size: 10px;
+  text-align: left;
+  color: #212529;
+}
+ul {
+  margin: 0;
+  padding: 0 0 0 6px;
+}
